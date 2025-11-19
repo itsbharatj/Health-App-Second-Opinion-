@@ -1,7 +1,7 @@
 // Test Gemini API
 import axios from 'axios';
 
-const GEMINI_API_KEY = 'AIzaSyBu4D62kXutHyNzHuBpax1jFLEWNW6sGVk';
+const GEMINI_API_KEY = 'ENTER YOU API KEY';
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent';
 
 async function testGemini() {
