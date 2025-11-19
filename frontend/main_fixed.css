@@ -1,0 +1,54 @@
+
+/* main_fixed.css - cleaned and completed */
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:'DM Sans',system-ui,Arial; background:#f8f9fa;color:#071123}
+.container{max-width:390px;margin:18px auto;padding:18px;color:#071123}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.left{display:flex;align-items:center;gap:12px}
+.avatar{width:52px;height:52px;border-radius:50%;overflow:hidden;position:relative;flex:0 0 52px}
+.avatar img{width:100%;height:100%;object-fit:cover;display:block}
+.status{width:10px;height:10px;background:#2fc26b;border:2px solid #fff;border-radius:50%;position:absolute;right:6px;bottom:6px;box-shadow:0 2px 6px rgba(0,0,0,0.12)}
+.texts .greeting{font-size:13px;color:#6c757d}
+.texts .date{font-weight:700;font-size:18px;margin-top:2px}
+
+.calendar{width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#fff;box-shadow:0 6px 18px rgba(20,20,20,0.06)}
+
+.quick{margin-top:6px;background:transparent}
+.title{display:flex;justify-content:space-between;align-items:center;margin:6px 2px}
+.title h3{margin:0;font-size:16px}
+.title .month{color:#6c757d}
+.seeall{color:#6c757d;text-decoration:none;font-size:13px}
+
+.links{display:flex;gap:12px;margin:8px 2px}
+.link{width:84px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px}
+.link .icon{width:48px;height:48px;border-radius:10px;background:#eaf7ed;display:flex;align-items:center;justify-content:center;font-size:20px}
+.link .label{font-weight:600;color:#121212;font-size:13px}
+
+.activity{display:flex;align-items:center;gap:12px;margin:12px 2px;padding:12px;border-radius:28px;background:#fff;box-shadow:0 6px 18px rgba(20,20,20,0.04);align-items:center}
+.act-left{width:56px;height:56px;border-radius:50%;background:linear-gradient(180deg,#111,#444);color:#fff;display:flex;align-items:center;justify-content:center;font-size:22px}
+.act-mid{flex:1}
+.act-date{font-weight:700}
+.act-stats{color:#6c757d;font-size:13px;margin-top:6px}
+.act-arrow{color:#6c757d;font-size:20px}
+
+.glance{margin-top:16px}
+.glance-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.glance-header h3{margin:0;font-size:18px}
+.glance-header .month{color:#6c757d}
+
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.card{background:#fff;border-radius:14px;padding:12px;box-shadow:0 6px 18px rgba(20,20,20,0.04);min-height:110px;display:flex;flex-direction:column;justify-content:space-between}
+.stat .muted{color:#6c757d;font-size:13px}
+.big{font-weight:700;font-size:20px}
+.unit{font-weight:400;color:#6c757d;font-size:12px;margin-left:6px}
+
+.sleepcard{min-height:160px;padding:10px;border-radius:18px;position:relative}
+.sleep-plot{height:84px;width:100%;background:linear-gradient(180deg,#f2faf4,#fff);border-radius:12px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.spark{width:92%;height:84px}
+.chat{position:absolute;right:12px;bottom:-18px;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#2fc26b;color:#fff;box-shadow:0 6px 18px rgba(47,194,107,0.14)}
+
+.center{align-items:center;text-align:center}
+.iconcircle{width:46px;height:46px;border-radius:50%;background:#eaf7ed;display:flex;align-items:center;justify-content:center;font-size:20px;margin:0 auto 8px}
+
+.note{color:#6c757d;margin-top:12px;font-size:13px}
+.fab{position:fixed;right:28px;bottom:28px;width:56px;height:56px;border-radius:50%;background:#2fc26b;color:#fff;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 10px 30px rgba(47,194,107,0.18)}

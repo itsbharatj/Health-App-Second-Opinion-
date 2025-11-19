@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Health Dashboard - Completed</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main_fixed.css">
+</head>
+<body>
+  <div class="container">
+    <header class="top">
+      <div class="left">
+        <div class="avatar">
+          <img src="./images/avatar.jpg" alt="avatar">
+          <span class="status"></span>
+        </div>
+        <div class="texts">
+          <div class="greeting">Hello Gaurav!</div>
+          <div class="date">Monday, 3rd Nov</div>
+        </div>
+      </div>
+      <div class="calendar">📅</div>
+    </header>
+
+    <section class="quick">
+      <div class="title">
+        <h3>Quick Links</h3>
+        <a class="seeall" href="#">See All</a>
+      </div>
+
+      <div class="links">
+        <div class="link">
+          <div class="icon">📄</div>
+          <div class="label">My Documents</div>
+        </div>
+        <div class="link">
+          <div class="icon">🍽️</div>
+          <div class="label">Meal Updates</div>
+        </div>
+        <div class="link">
+          <div class="icon">🎯</div>
+          <div class="label">Goal Progress</div>
+        </div>
+      </div>
+
+      <div class="activity">
+        <div class="act-left">🚴</div>
+        <div class="act-mid">
+          <div class="act-date">02 November</div>
+          <div class="act-stats">🔥 1282 Kcal &nbsp;&nbsp; ⚡ 963 Kcal</div>
+        </div>
+        <div class="act-arrow">›</div>
+      </div>
+    </section>
+
+    <section class="glance">
+      <div class="glance-header">
+        <h3>Month at a Glance</h3>
+        <div class="month">Nov, 2025</div>
+      </div>
+
+      <div class="grid">
+        <div class="card stat">
+          <div class="muted">Calories</div>
+          <div class="big">620.68 <span class="unit">Kcal</span></div>
+        </div>
+
+        <div class="card stat sleepcard">
+          <div class="muted">Sleep Quality</div>
+          <div class="sleep-plot">
+            <!-- simple SVG sparkline -->
+            <svg viewBox="0 0 300 80" preserveAspectRatio="none" class="spark">
+              <path d="M0,50 C40,40 80,60 120,48 C160,36 200,55 240,44 C280,34 300,48" fill="none" stroke="#2fc26b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <div class="chat">💬</div>
+          </div>
+        </div>
+
+        <div class="card stat">
+          <div class="muted">Steps</div>
+          <div class="big">1 240 <span class="unit">Steps</span></div>
+        </div>
+
+        <div class="card stat center">
+          <div class="iconcircle">💧</div>
+          <div class="muted">Hydration</div>
+          <div class="big">2.1 L</div>
+        </div>
+      </div>
+
+      <div class="note">Keep it up — you're doing great 👏</div>
+    </section>
+
+    <footer class="fab">+</footer>
+  </div>
+</body>
+</html>
